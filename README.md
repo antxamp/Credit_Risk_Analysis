@@ -15,15 +15,15 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results from all Deliverables:
 ### Naive Random Oversampling results:
-   - Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 74% 
+   - Our balanced accuracy test is 66%, the precision for the high_risk has a very low positivity at 0.01% and the recall is 58% 
    ![image](https://github.com/antxamp/Credit_Risk_Analysis/blob/main/Image_Resources/naive_random.PNG)
     
 ### SMOTE Oversampling results:    
-   - The accuracy score is 65.3%, the precision for the high_risk loans has a low positvity again at 1% and recall is 68% overall
+   - The accuracy score is 65.3%, the precision for the high_risk loans has a low positvity again at 0.01% and recall is 68% overall
    ![image](https://github.com/antxamp/Credit_Risk_Analysis/blob/main/Image_Resources/smote_oversampling1.PNG)
    
 ### ClusterCentroids Undersampling results:
-  - Balanced accuracy score is 65.3% overall, the precision is at 99% and the recall is 40%
+  - Balanced accuracy score is 65.3% overall, the precision avg/total is at 99% and the recall is 40%
    ![image](https://github.com/antxamp/Credit_Risk_Analysis/blob/main/Image_Resources/clustercentroids1.PNG)
    
 ### SMOTEENN results:    
